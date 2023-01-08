@@ -1,0 +1,12 @@
+appId: com.yagigo.findMeARestaurant
+productName: Find Me A Restaurant
+copyright: Copyright © 2023 Zhaoxin Wu
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
