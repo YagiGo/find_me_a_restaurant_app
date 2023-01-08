@@ -1,1 +1,1 @@
-# Find me a restaurant for app enthusiastics
+# Find me a restaurant for the app-enthusiastic
