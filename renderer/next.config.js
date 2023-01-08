@@ -1,5 +1,5 @@
 module.exports = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   env: {
     GOOGLE_MAP_API: process.env.GOOGLE_MAP_API || '',
     CENTER_LAT: process.env.CENTER_LAT || 0,

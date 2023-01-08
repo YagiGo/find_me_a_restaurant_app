@@ -9,4 +9,20 @@ files:
     filter:
       - package.json
       - app
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+        - ia32
+linux:
+  target:
+    - target: snap
+      arch:
+        - x64
+        - ia32
+  maintainer: Zhaoxin WU
+  vendor: YagiGo
+  description: A simple app helping you find restaurants near your workplace
+
 publish: null

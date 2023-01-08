@@ -1,10 +1,12 @@
-import React, { FC } from 'react';
+import React, {FC, ReactNode} from 'react';
 import TopBar from './TopBar';
 import { Col, Row } from 'react-bootstrap';
 import MapView from './MapView';
 import Style from '../style/AppLayout.module.scss';
-
-const AppLayout: FC = ({ children }) => {
+interface Props {
+    children: ReactNode
+}
+const AppLayout: FC<Props> = ({ children }) => {
   return (
     <div className={`${Style.layout}`}>
       <Row className='p-0'>
